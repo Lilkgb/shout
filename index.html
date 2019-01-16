@@ -11,11 +11,20 @@
   <body>
     <div class="container">
       <h1>Hello Everybody!!!! Are you ready for something fun?</h1>
-      <div class="formOne">
-        <div class="form-group">
-          <label for="enter">Type in anything you would like and see what happens!</label>
-          <input id="enter" class="form-control" type="text">
-        </div>
+      <form id="formOne">
+        <div class="formOne">
+          <div class="form-group">
+            <label for="enter">Type in anything you would like and see what happens!</label>
+            <input id="enter" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn btn-success">SHOW ME WHAT YOU GOT!</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="reply" class="jumbotron">
+        <p>After 5 hours this is what you input says now: <span class=userinput></span></p>
       </div>
     </div>
   </body>
